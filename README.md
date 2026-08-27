@@ -1,86 +1,51 @@
+<div align="center">
+
 # 📚 RAG Document Assistant
 
-A practical **Retrieval-Augmented Generation (RAG)** project built with Python, LangChain, LangGraph, Ollama, Chroma and Groq.
+### 🤖 Ask Questions. Retrieve Knowledge. Get Grounded Answers.
 
-This project allows users to upload documents, process their content, create embeddings, store them in a vector database, retrieve relevant information and ask questions about the uploaded documents.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Retrieval-Augmented+Generation;Document+Question+Answering;LangChain+%7C+LangGraph+%7C+Chroma;Ollama+%7C+Groq+%7C+Python" />
 
----
+<br/>
 
-## 🚀 Features
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-Agent-orange?style=for-the-badge)
+![Chroma](https://img.shields.io/badge/Chroma-VectorDB-purple?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20AI-black?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-LLM-red?style=for-the-badge)
 
-- PDF document loading
-- PowerPoint (PPT/PPTX) document loading
-- Text chunking
-- Ollama embeddings
-- Chroma vector database
-- Similarity search
-- Top-K retrieval
-- Context-based question answering
-- Groq LLM integration
-- LangChain Agent
-- LangGraph memory
-- Environment variable support using `.env`
-
-### Planned Features
-
-- LlamaParse
-- Multiple file support
-- Metadata filtering
-- Retriever
-- Similarity scores
-- MMR retrieval
-- Image and chart handling
-- Vision LLM
-- Multimodal RAG
-- Hybrid search
-- BM25
-- Reranking
-- Query transformation
-- Context compression
-- Source/page citations
-- RAG evaluation
+</div>
 
 ---
 
-## 🧠 What is RAG?
+## 🎥 Project Demo
 
-**RAG (Retrieval-Augmented Generation)** combines document retrieval with an LLM.
+<div align="center">
 
-Instead of asking the LLM to answer only from its existing knowledge, RAG first retrieves relevant information from the user's documents and provides that information to the LLM.
+<!-- Replace this GIF with your own project demo GIF -->
 
-### Basic Flow
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2R5c3Z4a3R6NnV5bGZ4c3l6c2J6Y2N4c2V5dGJ3c2F3b3N4/3o7aD2saalBwwftBIY/giphy.gif" width="700"/>
 
-User Question
-↓
-Retrieve Relevant Chunks
-↓
-Give Context to LLM
-↓
-Generate Answer
+</div>
+
+> 💡 **Tip:** Record your application running with OBS or ScreenToGif and upload the GIF to your GitHub repository. A real project GIF will look much better than a generic animation.
 
 ---
 
-## 🔄 RAG Architecture
+# 🧠 What is RAG?
+
+**RAG = Retrieval-Augmented Generation**
+
+RAG combines **information retrieval** with **Large Language Models (LLMs)**.
+
+Instead of asking an LLM to answer only from its existing knowledge, the system first searches your documents for relevant information and then provides that information to the LLM.
+
+### Without RAG
 
 ```text
-              PDF / PPT
-                  ↓
-          Document Loader
-                  ↓
-              Documents
-                  ↓
-               Chunking
-                  ↓
-              Embeddings
-                  ↓
-             Chroma DB
-                  ↓
-          Similarity Search
-                  ↓
-          Relevant Documents
-                  ↓
-               Context
-                  ↓
-              Groq LLM
-                  ↓
-               Answer
+User Question
+      ↓
+     LLM
+      ↓
+  Answer
