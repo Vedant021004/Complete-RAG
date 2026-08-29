@@ -1,7 +1,3 @@
-Absolutely — if this is going on **GitHub as your serious Advanced RAG learning/project repository**, I’d structure it more like a professional engineering project rather than a simple checklist.
-
-Here is a polished, advanced-style `README.md` you can use directly:
-
 # 🧠 Advanced RAG Lab
 
 <p align="center">
