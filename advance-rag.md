@@ -2,7 +2,6 @@ Absolutely — if this is going on **GitHub as your serious Advanced RAG learnin
 
 Here is a polished, advanced-style `README.md` you can use directly:
 
-````markdown
 # 🧠 Advanced RAG Lab
 
 <p align="center">
@@ -19,7 +18,7 @@ Here is a polished, advanced-style `README.md` you can use directly:
   <img src="https://img.shields.io/badge/Groq-LLM-yellow">
 </p>
 
----
+
 
 ## 📌 About
 
