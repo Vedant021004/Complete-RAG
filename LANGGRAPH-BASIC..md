@@ -1,4 +1,3 @@
-Perfect! 🔥 Now we increase **one level at a time**, using the same method: **first identify what is missing → then introduce the LangGraph feature that solves it.**
 
 # 🟢 LEVEL 2 — Multiple Steps
 
