@@ -1,0 +1,30 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Chroma Vector Database Local Storage
+sa_db/
+chroma_db/
+*.db
+*.sqlite3
+
+# Document Uploads & Temp Files
+temp_*
+*.wav
+*.mp3
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

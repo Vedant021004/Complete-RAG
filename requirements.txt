@@ -1,0 +1,23 @@
+﻿# Core LangChain & LangGraph Framework
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-experimental>=0.3.0
+langgraph>=0.2.0
+
+# LLM Providers & Embeddings
+langchain-groq>=0.2.0
+langchain-ollama>=0.2.0
+langchain-chroma>=0.1.4
+chromadb>=0.5.0
+
+# Document Parsers & Multi-Modal Parsing
+llama-parse>=0.5.0
+llama-cloud-services>=0.1.0
+pypdf>=4.0.0
+unstructured>=0.14.0
+
+# Web Deployment & Utilities
+streamlit>=1.38.0
+python-dotenv>=1.0.0
+pydantic>=2.7.0
